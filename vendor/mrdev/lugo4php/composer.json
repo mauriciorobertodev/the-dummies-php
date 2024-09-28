@@ -1,0 +1,49 @@
+{
+    "name": "mrdev/lugo4php",
+    "description": "Cliente PHP para Lugo Bots",
+    "version": "0.0.4-dev",
+    "license": "MIT",
+    "scripts": {
+        "test": "./vendor/bin/pest",
+        "test:coverage": "./vendor/bin/pest --coverage"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lugo4php\\": "src/"
+        },
+        "classmap": [
+            "output/Lugo/",
+            "output/GPBMetadata/"
+        ],
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+     "autoload-dev": {
+        "psr-4": { 
+            "Tests\\": "tests/" 
+        },
+        "files": [
+            "tests/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Mauricio Roberto",
+            "email": "mauricio.roberto.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "google/protobuf": "^4.28",
+        "grpc/grpc": "^1.57",
+        "php": "^8.3.11"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.35"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

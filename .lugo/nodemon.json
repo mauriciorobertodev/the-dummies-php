@@ -1,0 +1,6 @@
+{
+  "ignore": [".lugo", "vendor"],
+  "watch": ["."],
+  "exec": "php src/main.php",
+  "ext": "php"
+}

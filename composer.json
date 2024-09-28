@@ -1,0 +1,19 @@
+{
+    "name": "mrdev/the-dummies-php",
+    "autoload": {
+        "psr-4": {
+            "Bot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mauricio Roberto",
+            "email": "mauricio.roberto.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "mrdev/lugo4php": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
