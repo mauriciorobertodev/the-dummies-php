@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Criador de estratégias para Lugo Bots</h1>
+  <h1>The dummies PHP</h1>
 
   <p>
     The dummies php é um bot base criado usando o lugo4php.
