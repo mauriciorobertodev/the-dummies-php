@@ -97,8 +97,6 @@ class MyBot implements IBot
 	{		
 		$orders = [];
 
-		var_dump('SOU GOLEIROOO brasil zz');
-
 		if ($state === PlayerState::DISPUTING) {
 			$orders[] = $inspector->makeOrderJumpToPoint($inspector->getBallPosition());
 			$orders[] = $inspector->makeOrderCatch();
